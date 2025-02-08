@@ -1,0 +1,118 @@
+.player-container {
+            /*
+            
+            display: flex;
+                        */
+            padding: 10px;
+            width: 95%;
+            max-width: 500px;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 10px;
+            align-items: center;
+            border-radius: 10px;
+         
+        }
+        .logo {
+            width: 200px;
+            border-radius: 50%;
+            margin-bottom: 15px;
+            border: 8px solid #cac7c7;
+        }
+        .player-container.small {
+            background-size: 100% 100%;
+              }
+
+              .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 15px;
+        }
+        .social-icons a {
+            color: white;
+            font-size: 24px;
+            text-decoration: none;
+            padding: 10px;
+        }
+        .menu-icon, .share-icon {
+            font-size: 24px;
+            cursor: pointer;
+        }
+        .radio-info {
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .lugar{
+            font-size: 20px;
+            font-weight: bold;
+            padding: 0px 50px;
+            font-style: italic;
+            color: white;
+        }
+        .song-title {
+            font-size: 14px;
+            margin-bottom: 15px;
+            color:WHITE;
+            text-shadow: 0 0 0.2em #F87, 0 0 0.2em blue;
+            
+        }
+
+
+
+
+        .play-btn {
+            background-color: #fff;
+            color: #000;
+            border: none;
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            font-size: 24px;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10px;
+        }
+        .volume-container {
+            color:white;
+            align-items: center;
+            margin-top: 10px;
+        }
+        .volume-bar {
+            width: 100px;
+            
+        }
+        .subtitulobloq{
+
+            padding: 50px;
+        }
+        .cab{
+            font-size: 35px;
+            font-weight: bold;
+            text-align: left;
+            color: white;
+
+        }
+        .visualizer {
+            width: 100%;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .bar {
+            width: 5px;
+            height: 20px;
+            background: white;
+            margin: 2px;
+            animation: bounce 1.5s infinite ease-in-out alternate;
+        }
+        @keyframes bounce {
+            0% { height: 10px; }
+            100% { height: 30px; }
+        }
+        .dev{
+            color: white;
+        }
